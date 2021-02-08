@@ -1,13 +1,16 @@
+#parte-baja {
+color:gray;
+display: flex;
+text-align: center;
+width: 100vh;
+}
+
+.baja {
+    width: 100vh;
+}
 
 .button2 {
-position: absolute;
-width: 88px;
-height: 29px;
-left: 676px;
-top: 963px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 29px;
+background-color: white;
+border-radius: 35px;
+padding: 8px;
 }
