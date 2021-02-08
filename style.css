@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     background-color:#020021;
 }
@@ -15,7 +14,6 @@ float: left;
     align-items: center;
 list-style: none;
 width: 30rem;
-=======
 
 .button2 {
 position: absolute;
@@ -28,5 +26,4 @@ font-style: normal;
 font-weight: normal;
 font-size: 25px;
 line-height: 29px;
->>>>>>> 5cd2d5ca6570c26864ebd0b49f6ebb50d86dbb89
 }
