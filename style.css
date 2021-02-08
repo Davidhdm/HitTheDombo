@@ -1,2 +1,15 @@
 papafrita 2 
 salchipapas
+
+.button2 {
+position: absolute;
+width: 88px;
+height: 29px;
+left: 676px;
+top: 963px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+}
