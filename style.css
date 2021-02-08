@@ -1,15 +1,31 @@
-papafrita 2 
-salchipapas
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.button1 {
+    background-color: #00F482;
+    border-radius: 30px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 80px;
+    height: 30px;
+}
+
+.button1 span {
+    font-size: 15px;
+}
 
 .button2 {
-position: absolute;
-width: 88px;
-height: 29px;
-left: 676px;
-top: 963px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 29px;
+    position: absolute;
+    width: 88px;
+    height: 29px;
+    left: 676px;
+    top: 963px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
 }
