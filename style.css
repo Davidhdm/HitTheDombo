@@ -1,5 +1,9 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
     background-color:#020021;
+    color: #FFFFFF;
 }
 
 .contenedor {
@@ -8,36 +12,68 @@ body{
     height: 90vh;
     width: 100vw;
 }
-.domboom{
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.button1 {
+    background-color: #00F482;
+    border-radius: 30px;
+    border-style: none;
+    width: 110px;
+    height: 30px;
+}
+
+.button1 span {
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.domboom {
 float: left;
 }
-.menu{
+
+.menu {
     float: right;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #FFFFFF;
     display: flex;   
     justify-content: space-around;
     align-items: center;
-list-style: none;
-width: 30rem;
+    list-style: none;
+    width: 30rem;
 }
 
 #parte-baja {
     color:gray;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
- }
-    
+    text-align: center;
+    width: 40vw;
+    height: 30vh;
+}
+
 .button2 {
-background-color: #FFFFFF;
-border-radius: 20px;
-padding: 6;
-height: 40px;
-width: 100px;
-font-size: x-small;
+    position: absolute;
+    width: 88px;
+    height: 29px;
+    left: 676px;
+    top: 963px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 6;
+    font-size: x-small;
+}
+    
+.baja {
+    width: 100vh;
 }
 
 .premium {
