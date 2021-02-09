@@ -6,10 +6,8 @@ body {
     color: #FFFFFF;
 }
 
-.container{
-    
-    
-    
+.container {
+        
 }
 
 main {
@@ -20,7 +18,6 @@ main {
     flex-flow: column;
     align-items: flex-start;
     justify-content: center;
-    
 }
 
 h1 {
