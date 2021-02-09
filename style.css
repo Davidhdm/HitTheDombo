@@ -1,9 +1,27 @@
 body{
+    height: 100vh;
+width: 100vw;
     background-color:#020021;
+    color: white;
+    display: flex;
+ justify-content: center;
 }
+    
+    
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 100vh;
+}
+
 .domboom{
-float: left;
+display: flex;
+
 }
+
 .menu{
     float: right;
     margin: 0;
