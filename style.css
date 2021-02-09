@@ -24,13 +24,14 @@ header {
 main {
     margin-top: 15vh;
     display: flex;
-    flex-flow: column;
+    
     align-items: flex-start;
-    justify-content: center;
+    
+    
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 65px;
     margin-bottom: 15px;
 }
 
@@ -93,6 +94,22 @@ a span {
     color: #00F482;
 }
 
+<<<<<<< HEAD
+
+
+.drumkit{
+    height:100% ;
+    width:100% ;
+    margin-left: 10%;
+    float: right;
+
+    
+
+}
+.left{
+    width: 70%;
+}
 h2 {
     color: #FFFFFF;
+
 }
