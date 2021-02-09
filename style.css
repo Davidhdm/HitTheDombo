@@ -11,13 +11,10 @@ body {
 
 
 main {
-    width: 100vh;
-    height: 85vh;
-    margin-left: 350px;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: left;
 }
 
 h1 {
@@ -44,12 +41,15 @@ main p {
     color: #FFFFFF;
 }
 
+section {
+    height: 100vh;
+    flex-flow: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .button2 {
-    position: absolute;
-    width: 88px;
-    height: 29px;
-    left: 676px;
-    top: 963px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -60,52 +60,32 @@ main p {
     padding: 8px;
 }
 
-.domboom {
-    float: left;
+nav{
+   
 }
 
-.menu{
-    float: right;
+.domboom {   
+}
+
+ul{
     margin: 0;
     padding: 0;
-    color: #FFFFFF;
     display: flex;   
-    justify-content: space-around;
-    align-items: center;
+    justify-conten  t: space-around;
     list-style: none;
     width: 30rem;
 }
 
-#parte-baja {
+
+section {
     color:gray;
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 40vw;
-    height: 30vh;
-}
-
-.button2 {
-    position: absolute;
-    width: 88px;
-    height: 29px;
-    left: 676px;
-    top: 963px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: x-small;
-    line-height: 17px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 8;
+    height: 25vh;
     
 }
     
-.baja {
-    width: 100vh;
-}
 
-.premium {
-    color: white;
-}
+
+
