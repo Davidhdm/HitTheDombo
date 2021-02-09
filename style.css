@@ -9,15 +9,14 @@ body {
     align-items: center;
 }
 
-.container{
-    margin: 50px 100px 50px 100px; 
-    height: 100vh;
-     width: 80vw;
+.container {
+        
 }
 
 main {
     width: 100vh;
     height: 85vh;
+    margin-left: 350px;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
@@ -89,10 +88,6 @@ main p {
     
 .baja {
     width: 100vh;
-}
-
-.button2 {
-
 }
 
 .premium {
