@@ -4,11 +4,16 @@ body {
     font-family: Lato, Arial, Helvetica, sans-serif;
     background-color: #020021;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 main {
     width: 100vh;
     height: 85vh;
+    margin-left: 350px;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
@@ -102,5 +107,5 @@ main p {
 }
 
 .premium {
-    color: #FFFFFF;
+    color: white;
 }
