@@ -1,6 +1,13 @@
 body{
     background-color:#020021;
 }
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+}
 .domboom{
 float: left;
 }
@@ -19,20 +26,20 @@ width: 30rem;
 #parte-baja {
     color:gray;
     display: flex;
-    text-align: center;
-    width: 100vh;
-    }
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+ }
     
-    .baja {
-        width: 100vh;
-    }
-
 .button2 {
-background-color: white;
-border-radius: 35px;
-padding: 8px;
+background-color: #FFFFFF;
+border-radius: 20px;
+padding: 6;
+height: 40px;
+width: 100px;
+font-size: x-small;
 }
 
 .premium {
-    color: white;
+    color: #FFFFFF;
 }
