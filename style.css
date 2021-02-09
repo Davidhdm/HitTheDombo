@@ -64,9 +64,10 @@ section {
 }
 
 .button2 {
-        font-size: 25px;
+    font-size: 25px;
     line-height: 29px;
     background-color: white;
+    border-style: none;
     border-radius: 35px;
     padding: 8px;
 }
