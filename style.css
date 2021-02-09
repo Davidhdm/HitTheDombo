@@ -10,17 +10,17 @@ body {
 }
 
 .container {
-        
+    margin: 50px 50px 50px 50px; 
+    padding: 0px 150px 50px 150px;
+    height: 80vh;
+    width: 90vw;   
 }
 
 main {
-    width: 100vh;
-    height: 85vh;
-    margin-left: 350px;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: left;
 }
 
 h1 {
@@ -47,12 +47,15 @@ main p {
     color: #FFFFFF;
 }
 
+section {
+    height: 100vh;
+    flex-flow: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .button2 {
-    position: absolute;
-    width: 88px;
-    height: 29px;
-    left: 676px;
-    top: 963px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -64,14 +67,20 @@ main p {
 }
 
 .domboom {
-    float: left;
+    display: flex;
+    justify-content: flex-start;
 }
 
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
 .menu{
-    float: right;
+    
     margin: 0;
     padding: 0;
-    color: white;
     display: flex;   
     justify-content: space-around;
     align-items: center;
@@ -79,17 +88,15 @@ main p {
     width: 30rem;
 }
 
-#parte-baja {
+
+section {
     color:gray;
     display: flex;
     text-align: center;
-    width: 100vh;
+    height: 25vh;
+    
 }
     
-.baja {
-    width: 100vh;
-}
 
-.premium {
-    color: white;
-}
+
+
