@@ -2,20 +2,47 @@
 
 body {
     font-family: Lato, Arial, Helvetica, sans-serif;
-    background-color:#020021;
+    background-color: #020021;
+    color: #FFFFFF;
+}
+
+.container{
+    
+    
+    
+}
+
+main {
+    width: 100vh;
+    height: 85vh;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 75px;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 45px;
+    color: gray;
+    font-size: 18px;
 }
 
 .button1 {
     background-color: #00F482;
     border-radius: 30px;
     border-style: none;
-    color: #FFFFFF;
-    width: 80px;
-    height: 30px;
+    width: 245px;
+    height: 60px;
 }
 
 .button1 span {
-    font-size: 11px;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .button2 {
@@ -29,12 +56,15 @@ body {
     font-weight: normal;
     font-size: 25px;
     line-height: 29px;
+    background-color: white;
+    border-radius: 35px;
+    padding: 8px;
 }
 
 .domboom {
-float: left;
-
+    float: left;
 }
+
 .menu{
     float: right;
     margin: 0;
@@ -59,9 +89,7 @@ float: left;
 }
 
 .button2 {
-background-color: white;
-border-radius: 35px;
-padding: 8px;
+
 }
 
 .premium {
