@@ -36,7 +36,7 @@ h1 {
 
 main p {
     margin-bottom: 45px;
-    color: gray;
+    color: #5d5775;
     font-size: 18px;
 }
 
@@ -58,17 +58,21 @@ section {
     flex-flow: column;    
     justify-content: flex-end;
     align-items: center;
-    color:gray;
+    color: #5d5775;
     text-align: center;
     height: 25vh;
 }
 
 .button2 {
-        font-size: 25px;
+    font-size: normal;
     line-height: 29px;
     background-color: white;
     border-radius: 35px;
     padding: 8px;
+    border-style: none;
+    width: 140px;
+    height: 60px;
+    font-weight: bolder;
 }
 
 ul {
@@ -87,4 +91,8 @@ a {
 
 a span {
     color: #00F482;
+}
+
+h2 {
+    color: #FFFFFF;
 }
