@@ -1,27 +1,40 @@
-body{
-    height: 100vh;
-width: 100vw;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
     background-color:#020021;
-    color: white;
-    display: flex;
- justify-content: center;
-}
-    
-    
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70vw;
-    height: 100vh;
 }
 
-.domboom{
-display: flex;
-
+.button1 {
+    background-color: #00F482;
+    border-radius: 30px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 80px;
+    height: 30px;
 }
 
+.button1 span {
+    font-size: 11px;
+}
+
+.button2 {
+    position: absolute;
+    width: 88px;
+    height: 29px;
+    left: 676px;
+    top: 963px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.domboom {
+float: left;
+
+}
 .menu{
     float: right;
     margin: 0;
