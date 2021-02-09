@@ -9,10 +9,12 @@ body {
 main {
     width: 100vh;
     height: 85vh;
+    margin-left: 350px;
     display: flex;
     flex-flow: column;
     align-items: flex-start;
     justify-content: center;
+    
 }
 
 h1 {
@@ -80,10 +82,6 @@ main p {
     
 .baja {
     width: 100vh;
-}
-
-.button2 {
-
 }
 
 .premium {
