@@ -16,6 +16,11 @@ body {
     width: 90vw;   
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
 main {
     display: flex;
     flex-flow: column;
@@ -68,24 +73,18 @@ section {
     padding: 8px;
 }
 
-.domboom {
-    display: flex;
-    justify-content: flex-start;
+nav{
+   
 }
 
-nav{
-    display: flex;
-    justify-content: flex-end;
-    
-    
+.domboom {   
 }
-.menu{
-    
+
+ul{
     margin: 0;
     padding: 0;
     display: flex;   
-    justify-content: space-around;
-    align-items: center;
+    justify-conten  t: space-around;
     list-style: none;
     width: 30rem;
 }
