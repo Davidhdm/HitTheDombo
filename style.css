@@ -61,9 +61,6 @@ section {
 }
 
 .button2 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 25px;
     line-height: 29px;
     background-color: white;
@@ -82,7 +79,7 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;   
-    justify-conten  t: space-around;
+    justify-content: space-around;
     list-style: none;
     width: 30rem;
 }
@@ -92,8 +89,7 @@ section {
     color:gray;
     display: flex;
     text-align: center;
-    height: 25vh;
-    
+    height: 25vh;    
 }
     
 
