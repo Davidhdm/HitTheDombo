@@ -94,7 +94,6 @@ a span {
     color: #00F482;
 }
 
-<<<<<<< HEAD
 
 
 .drumkit{
@@ -102,6 +101,7 @@ a span {
     width:100% ;
     margin-left: 10%;
     float: right;
+    /*filter: drop-shadow(10px 10px 10px #43327D);*/
 
     
 
@@ -111,5 +111,21 @@ a span {
 }
 h2 {
     color: #FFFFFF;
+
+}
+.sombra{
+    margin-top: -20px;
+    margin-left: 550px;
+    width: 400px;
+    height: 550px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #281F46;
+    filter: blur(20px);
+    
+    z-index:-1;
+    float: right;
+    position: absolute;
 
 }
