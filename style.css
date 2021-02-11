@@ -114,7 +114,6 @@ a span {
     float: right;
     /*filter: drop-shadow(10px 10px 10px #43327D);*/
 
-    
 
 
 }
@@ -132,9 +131,9 @@ h2 {
 }
 .sombra{
     margin-top: -20px;
-    margin-left: 550px;
+    margin-left: 900px;
     width: 400px;
-    height: 550px;
+    height: 500px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
