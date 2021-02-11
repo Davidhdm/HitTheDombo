@@ -147,3 +147,20 @@ h2 {
 
 }
 
+.verticalLine {
+    border-right: 1px solid #FFFFFF;
+    width: 18%;
+    height: auto;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
