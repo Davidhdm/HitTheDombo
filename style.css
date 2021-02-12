@@ -22,9 +22,9 @@ header {
 }
 
 main {
-    margin-top: 15vh;
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 h1 {
@@ -93,42 +93,38 @@ a span {
     color: #00F482;
 }
 
-
 .left {
-    width: 70%;
+    margin-top: 15vh;
+    max-width: 40%;
 }
 
-
 .right {
-    height: 50vh;
-    width: 55vw;
+    margin-top: 9vh;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 25rem;
+    max-width: 60%;
 }
 
 .drumkit {
-    position: absolute;
-    top: 12.5rem;
-    right: 12.5rem;
-    height: 31.25rem;
-    margin-left: 10%;
-
-    float: right;
+    width: 100%
     /*filter: drop-shadow(10px 10px 10px #43327D);*/
-
-
-
 }
 
 .drum-button {
     position: absolute;
-    right: 28.5%;
-    top: 16.875rem;
-    width: 11.875rem;
+    right: 48%;
+    top: 14%;
+    width: 26%;
     z-index:1;   
 }
 
 h2 {
     color: #FFFFFF;
+    font-size: 29px;
+    margin-bottom: 0;
 }
+
 .sombra{
     margin-top: -1.25rem;
     margin-left: 56.25rem;
@@ -139,11 +135,9 @@ h2 {
     border-radius: 50%;
     background: #281F46;
     filter: blur(1.25rem);
-    
     z-index:-1;
     float: right;
     position: absolute;
-
 }
 
 .verticalLine {
