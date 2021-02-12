@@ -107,10 +107,7 @@ a span {
 }
 
 .drumkit {
-   
     width: 100%;
-    
-    /*filter: drop-shadow(10px 10px 10px #43327D);*/
 }
 
 .drum-button {
@@ -139,8 +136,6 @@ h2 {
     z-index:-1;
     position: absolute;
     right: 20%;
-   
-
 }
 
 .verticalLine {
@@ -154,11 +149,12 @@ h2 {
 }
 
 @media screen and (min-width: 480px) and (max-width: 780px) {
- main{
-    align-items:none;
-    flex-flow: column; 
- }
 
+    main {
+        align-items: none;
+        flex-flow: column; 
+    }
+}
 
 
 
