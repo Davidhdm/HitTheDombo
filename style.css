@@ -102,7 +102,7 @@ a span {
     margin-top: 5vh;
     box-sizing: border-box;
     position: relative;
-    min-height: 100%;
+    min-height: 50%;
     min-width: 25rem;
     max-width: 60%;
 }
