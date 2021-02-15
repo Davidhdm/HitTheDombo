@@ -185,6 +185,11 @@ h2 {
     right: 20%;
 }
 
+.drum-button-mobile{
+    display:none;
+}
+
+
 .verticalLine {
     border-right: 1px solid #FFFFFF;
     width: 18%;
@@ -236,10 +241,26 @@ h2 {
         margin-top: 40px;
         width: 100%;
     }
-   
+    .drum-button-mobile{
+        display: block;
+    }
+    
+    body{
+        display: flex;
+        justify-content: space-around;
 
+    }
 
+    section{
+        
 
-@media screen and (max-width: 480px) {
-  
-}   
+        margin-top: 500px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+
+    }
+    
+
+} 
