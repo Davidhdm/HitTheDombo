@@ -185,6 +185,11 @@ h2 {
     right: 20%;
 }
 
+.drum-button-mobile{
+    display:none;
+}
+
+
 .verticalLine {
     border-right: 1px solid #FFFFFF;
     width: 18%;
@@ -197,14 +202,14 @@ h2 {
     main {
         align-items: none;
         flex-flow: column; 
+        margin-top: 10%;
     }
-}
-
-
-
-@media screen and (max-width: 480px) {
     ul {
         display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
     }
     main { 
         display: flex;
@@ -234,14 +239,28 @@ h2 {
 
     .right{
         margin-top: 40px;
-        width: 18rem;
-        height: 20rem;
-       
+        width: 100%;
     }
-    .button1{
-       color: transparent;
+    .drum-button-mobile{
+        display: block;
     }
-    .drum-button {
-        display: none;
+    
+    body{
+        display: flex;
+        justify-content: space-around;
+
     }
-}   
+
+    section{
+        
+
+        margin-top: 500px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+
+    }
+    
+
+} 
