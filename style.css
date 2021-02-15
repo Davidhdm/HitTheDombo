@@ -107,10 +107,7 @@ a span {
 }
 
 .drumkit {
-   
     width: 100%;
-    
-    /*filter: drop-shadow(10px 10px 10px #43327D);*/
 }
 
 .drum-button {
@@ -139,8 +136,6 @@ h2 {
     z-index:-1;
     position: absolute;
     right: 20%;
-   
-
 }
 
 .verticalLine {
@@ -151,26 +146,41 @@ h2 {
 
 
 @media screen and (min-width: 480px) and (max-width: 780px) {
- main{
-    align-items:none;
-    flex-flow: column; 
- }
+
+    main {
+        align-items: none;
+        flex-flow: column; 
+    }
+}
 
 
 
-
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
     ul {
         display: none;
-
-}
+    }
     main { 
         display: flex;
-        flex-flow: column;
-
- }
+        flex-flow: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
     .container {
         height: 100vh;
         width: 100vw;
- }
-}
+    }
+    .left {
+        max-width: 480px;
+        margin: 0;
+    }
+    .right {
+        max-width: 480px;
+    }
+    .left h1 {
+        text-align: left;
+        font-size: 60px;
+    }
+    .left p {
+
+    }
+}   
