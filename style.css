@@ -197,14 +197,14 @@ h2 {
     main {
         align-items: none;
         flex-flow: column; 
+        margin-top: 10%;
     }
-}
-
-
-
-@media screen and (max-width: 480px) {
     ul {
         display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
     }
     main { 
         display: flex;
@@ -234,14 +234,12 @@ h2 {
 
     .right{
         margin-top: 40px;
-        width: 18rem;
-        height: 20rem;
-       
+        width: 100%;
     }
-    .button1{
-       color: transparent;
-    }
-    .drum-button {
-        display: none;
-    }
+   
+
+
+
+@media screen and (max-width: 480px) {
+  
 }   
