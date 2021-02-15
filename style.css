@@ -99,23 +99,70 @@ a span {
 }
 
 .right {
-    margin-top: 0vh;
+    margin-top: 5vh;
     box-sizing: border-box;
     position: relative;
+    min-height: 100%;
     min-width: 25rem;
     max-width: 60%;
 }
 
-.drumkit {
+#drumkit {
     width: 100%;
+    position: relative;
 }
 
-.drum-button {
+div.right img {
     position: absolute;
+    z-index: 1;
+} 
+
+.drum-button {
     right: 48%;
     top: 14%;
     width: 26%;
-    z-index:1;   
+}
+
+.drum-button-2 {
+    right: 24%;
+    top: 14%;
+    width: 26%;
+}
+
+.drum-button-3 {
+    right: 0%;
+    top: 5%;
+    width: 19%;
+}
+
+.drum-button-4 {
+    right: 7.7%;
+    top: 28%;
+    width: 19%;
+}
+
+.drum-button-5 {
+    right: 12%;
+    top:51%;
+    width: 26%;
+}
+
+.drum-button-6 {
+    right: 79.9%;
+    top: 5%;
+    width: 19%;
+}
+
+.drum-button-7 {
+    right: 72.4%;
+    top: 28%;
+    width: 19%;
+}
+
+.drum-button-8 {
+    right: 59.9%;
+    top: 51%;
+    width: 26%;
 }
 
 h2 {
