@@ -185,7 +185,7 @@ h2 {
     right: 20%;
 }
 
-.drum-button-mobile{
+.drum-button-mobile, .texto_Hit {
     display:none;
 }
 
@@ -195,7 +195,6 @@ h2 {
     width: 18%;
     height: auto;
 }
-
 
 @media screen and (min-width: 480px) and (max-width: 780px) {
 
@@ -265,6 +264,25 @@ h2 {
        
         height: 350px;
         width: 350px;
+    }
+
+    .drum_mobile {
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        position: relative;
+    }
+
+    .texto_Hit {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        font-size: xx-large;
+        font-weight: 800;
+        top: 26%;
+        right: 49%;
+        color: #3F3F3F;
+
     }
     
 
