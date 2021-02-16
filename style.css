@@ -243,6 +243,7 @@ h2 {
     }
     .drum-button-mobile{
         display: block;
+        width: 100%;
     }
     
     body{
@@ -252,14 +253,18 @@ h2 {
     }
 
     section{
-        
-
-        margin-top: 500px;
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
         display: flex;
         justify-content: space-around;
-        
-        
+        height: 300px;
+    }
 
+    section div {
+       
+        height: 350px;
+        width: 350px;
     }
     
 
