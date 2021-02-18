@@ -10,44 +10,24 @@ function changelogin(){
 }
 
 function audio1(){
-    let drum1 = document.getElementById("drum1");
-    
-    if (drum1.paused){
-        drum1.play();
-    }else{
-        drum1.pause();
-    }
+    let bombo = document.getElementById("bombo");
+    bombo.play();
 }
 
 function audio2(){
-    let drum1 = document.getElementById("drum2");
-    
-    if (drum1.paused){
-        drum1.play();
-    }else{
-        drum1.pause();
-    }
+    let crash = document.getElementById("crash");
+    crash.play();
 }
 
 
 function audio3(){
-    let drum1 = document.getElementById("drum3");
-    
-    if (drum1.paused){
-        drum1.play();
-    }else{
-        drum1.pause();
-    }
+    let hithat = document.getElementById("hit-hat");
+    hithat.play();
 }
 
 function audio4(){
-    let drum1 = document.getElementById("drum4");
-    
-    if (drum1.paused){
-        drum1.play();
-    }else{
-        drum1.pause();
-    }
+    let redoblante = document.getElementById("redoblante");
+    redoblante.play();
 }
 
 function videoMarcianito(){
