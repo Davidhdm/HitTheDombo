@@ -49,3 +49,13 @@ function audio4(){
         drum1.pause();
     }
 }
+
+function videoMarcianito(){
+    let videoMarcianito = document.getElementById("iframe");
+
+    if (videoMarcianito.style.display == "none"){
+        videoMarcianito.style.display = "block";
+    }else{
+        videoMarcianito.style.display = "none";
+    }
+}

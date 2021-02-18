@@ -203,10 +203,6 @@ iframe {
     display: none;
 }
 
-.button2:focus + iframe {
-    display: block;
-}
-
 @media screen and (min-width: 360px) and (max-width: 780px) {
     body {
         display: flex;
