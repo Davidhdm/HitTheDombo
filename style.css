@@ -116,57 +116,71 @@ a span {
     position: relative;
 }
 
-div.right img {
+div.right button {
     position: absolute;
     z-index: 1;
+    border-radius: 50%;
+    border-style: none;
+    height:26%;
+    background-image: url(muestra-boton.png);
+    background-size: cover;
 } 
 
 .drum-button {
-    right: 48%;
-    top: 14%;
-    width: 26%;
+    right: 53%;
+    top: 17%;
+    padding-bottom: 15vh;
+    padding-left: 15vh;
+    
 }
 
 .drum-button-2 {
     right: 24%;
     top: 14%;
-    width: 26%;
+    padding: 80px;
+    /*width: 26%;
+    height: 26%;*/
 }
 
 .drum-button-3 {
     right: 0%;
     top: 5%;
-    width: 19%;
+    padding: 1%;
 }
 
 .drum-button-4 {
     right: 7.7%;
     top: 28%;
     width: 19%;
+    height: 19%;
 }
 
 .drum-button-5 {
     right: 12%;
     top:51%;
     width: 26%;
+    height: 26%;
 }
 
 .drum-button-6 {
     right: 79.9%;
     top: 5%;
     width: 19%;
+    height: 19%;
 }
 
 .drum-button-7 {
     right: 72.4%;
     top: 28%;
     width: 19%;
+    height: 19%;
 }
 
 .drum-button-8 {
     right: 59.9%;
     top: 51%;
     width: 26%;
+    height: 1%;
 }
 
 h2 {
@@ -209,18 +223,6 @@ iframe {
         justify-content: space-around;
     }
 
-    .menu-wrapper{
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .mobile-menu {
-        display: grid;
-        background-color: #00F482;
-        width: 20%;
-        height: 4.5%;
-    }
-
     main {
         display: flex;
         flex-flow: column-reverse;
@@ -229,23 +231,57 @@ iframe {
         margin-top: 10%;
     }
 
-    ul {
+    ul{
         display: none;
+    }
+
+    nav {
+        display: block;
+        background-color: #00F482;
+        height: 26%;
+        width: 20%;
+        border-radius: 55px;
+        position: absolute;
+        top: 5%;
+        right: 1%;
+    }
+
+    .menuLine1, .menuLine2, .menuLine3 {
+        display: block;
+        background-color: #FFFFFF;
+        width: 30%;
+        height: 5%;
+        position: absolute;
+        right: 12%;
+        top: 28%;
+    }
+
+    .menuLine2 {
+        width: 15%;
+        top: 47%;
+    }
+
+    .menuLine3 {
+        width: 22%;
+        top: 67%;
     }
 
     header {
         display: flex;
         justify-content: center;
+        position: relative;
     }
 
     header img {
         width: 60%;
+        margin-top: 20%;
     }
 
     .container {
         height: 100vh;
         width: 90vw;
         padding: 0%;
+        margin-top: 0.5rem;
     }
 
     .left {

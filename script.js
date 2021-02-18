@@ -30,6 +30,12 @@ function audio4(){
     redoblante.play();
 }
 
+/*myAudio.addEventListener('timeupdate', function() {
+    if (this.currentTime > stopTime) {
+      this.pause();
+    }
+  }, false);*/
+
 function videoMarcianito(){
     let videoMarcianito = document.getElementById("iframe");
 
