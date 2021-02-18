@@ -9,9 +9,12 @@
 
     <body>
         <div class="container">
-            <header>
+                <header>
                 <img class="domboom" src="Domboom.png" alt="Domboom">
                 <nav>
+                    <div class="menu-wrapper">
+                        <div class="mobile-menu"></div>
+                    </div>
                     <ul>
                         <li><a href="#">Premium</a></a></li>
                         <li><a href="#">Help</a></li>
@@ -19,7 +22,7 @@
                         <div class="verticalLine">
                         <li><a href="#"><span>Sign Up</span></a></li>
                         </div>
-                        <li><a href="#">Log in</a></li>
+                        <li><a onclick="changelogin()" id="login" href="#">Log in</a></li>
                     </ul>
                 </nav>
             </header>
@@ -57,5 +60,7 @@
                 <button class="button2">SEE PRICING</button>
             </section>
         </div>
+        
+        <script src="script.js"></script>
     </body>
 </html>

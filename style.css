@@ -16,6 +16,10 @@ body {
     width: 90vw;   
 }
 
+.mobile-menu {
+    display: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -189,7 +193,6 @@ h2 {
     display:none;
 }
 
-
 .verticalLine {
     border-right: 1px solid #FFFFFF;
     width: 18%;
@@ -200,6 +203,18 @@ h2 {
     body {
         display: flex;
         justify-content: space-around;
+    }
+
+    .menu-wrapper{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mobile-menu {
+        display: grid;
+        background-color: #00F482;
+        width: 20%;
+        height: 4.5%;
     }
 
     main {
@@ -256,10 +271,10 @@ h2 {
     
     section {
         display: flex;
-        padding-top: 50%;
+        margin-top: 50%;
         margin-bottom: 150px; 
         justify-content: flex-end;
-        height: 100%;
+        height: auto;
     }
 
     section h2 {
@@ -277,7 +292,7 @@ h2 {
 
     .button2 {
         width: 35vw;
-        height: 7%;
+        height: 5vh;
         font-size: 4vw;
         line-height: 1vh;
     }
