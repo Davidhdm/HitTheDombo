@@ -39,14 +39,14 @@
                 <div class="right">
                     <div class="sombra"></div> 
                     <img id="drumkit" src="drumkit.png" alt="drumkit">
-                    <img class="drum-button" src="muestra-boton.png" alt="drum-button">
-                    <img class="drum-button-2" src="muestra-boton.png" alt="drum-button">
-                    <img class="drum-button-3" src="muestra-boton.png" alt="drum-button">
-                    <img class="drum-button-4" src="muestra-boton.png" alt="drum-button">
-                    <img class="drum-button-5" src="muestra-boton.png" alt="drum-button">
-                    <img class="drum-button-6" src="muestra-boton.png" alt="drum-button">
-                    <img class="drum-button-7" src="muestra-boton.png" alt="drum-button">
-                    <img class="drum-button-8" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio1()" class="drum-button" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio1()" class="drum-button-2" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio2()" class="drum-button-3" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio3()" class="drum-button-4" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio4()" class="drum-button-5" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio2()" class="drum-button-6" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio3()" class="drum-button-7" src="muestra-boton.png" alt="drum-button">
+                    <img onclick="audio4()" class="drum-button-8" src="muestra-boton.png" alt="drum-button">
                 </div>
             </main>
 
@@ -57,10 +57,15 @@
                 </div>    
                 <h2>Try Premium free for 1 month</h2>
                 <p>Play millions of songs ad-free, on demand, and offline</p>
-                <button class="button2">SEE PRICING</button>
+                <a href="https://www.youtube.com/watch?v=bCoFfCgxBeM?autoplay=1">
+                    <button class="button2">SEE PRICING</button>
+                </a>
             </section>
         </div>
-        
+        <audio id="drum1" src="bombo.wav"></audio>
+        <audio id="drum2" src="crash.wav"></audio>
+        <audio id="drum3" src="hit-hat.wav"></audio>
+        <audio id="drum4" src="redoblante.wav"></audio>
         <script src="script.js"></script>
     </body>
 </html>
