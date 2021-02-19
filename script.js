@@ -11,30 +11,39 @@ function changelogin(){
 
 function audio1(){
     let bombo = document.getElementById("bombo");
-    bombo.play();
+    if (bombo.paused) {
+        bombo.play();
+    }else{
+        bombo.currentTime = 0
+    }
 }
 
 function audio2(){
     let crash = document.getElementById("crash");
-    crash.play();
+    if (crash.paused) {
+        crash.play();
+    }else{
+        crash.currentTime = 0
+    }
 }
-
 
 function audio3(){
     let hithat = document.getElementById("hit-hat");
-    hithat.play();
+    if (hithat.paused) {
+        hithat.play();
+    }else{
+        hithat.currentTime = 0
+    }
 }
 
 function audio4(){
     let redoblante = document.getElementById("redoblante");
-    redoblante.play();
-}
-
-/*myAudio.addEventListener('timeupdate', function() {
-    if (this.currentTime > stopTime) {
-      this.pause();
+    if (redoblante.paused) {
+        redoblante.play();
+    }else{
+        redoblante.currentTime = 0
     }
-  }, false);*/
+}
 
 function videoMarcianito(){
     let videoMarcianito = document.getElementById("iframe");
