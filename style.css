@@ -121,66 +121,64 @@ div.right button {
     z-index: 1;
     border-radius: 50%;
     border-style: none;
-    height:26%;
-    background-image: url(muestra-boton.png);
-    background-size: cover;
+    background-color: #202020; 
+    display: flex;
 } 
 
 .drum-button {
-    right: 53%;
-    top: 17%;
-    padding-bottom: 15vh;
-    padding-left: 15vh;
-    
+    right: 51.7%;
+    top: 15.2%;
+    width: 21.1%;
+    height: 30%;
 }
 
 .drum-button-2 {
-    right: 24%;
-    top: 14%;
-    padding: 80px;
-    /*width: 26%;
-    height: 26%;*/
+    right: 28%;
+    top: 15.2%;
+    width: 21.1%;
+    height: 30%;
 }
 
 .drum-button-3 {
-    right: 0%;
-    top: 5%;
-    padding: 1%;
+    right: 2.7%;
+    top: 5.6%;
+    width: 15.3%;
+    height: 22.5%;
 }
 
 .drum-button-4 {
-    right: 7.7%;
+    right: 10.5%;
     top: 28%;
-    width: 19%;
-    height: 19%;
+    width: 15.3%;
+    height: 22.5%;
 }
 
 .drum-button-5 {
-    right: 12%;
-    top:51%;
-    width: 26%;
-    height: 26%;
+    right: 15.7%;
+    top:52.6%;
+    width: 21.1%;
+    height: 30%;
 }
 
 .drum-button-6 {
-    right: 79.9%;
-    top: 5%;
-    width: 19%;
-    height: 19%;
+    right: 82.7%;
+    top: 5.5%;
+    width: 15.3%;
+    height: 22.5%;
 }
 
 .drum-button-7 {
-    right: 72.4%;
+    right: 75.2%;
     top: 28%;
-    width: 19%;
-    height: 19%;
+    width: 15.3%;
+    height: 22.5%;
 }
 
 .drum-button-8 {
-    right: 59.9%;
-    top: 51%;
-    width: 26%;
-    height: 1%;
+    right: 63.7%;
+    top: 52.5%;
+    width: 21.1%;
+    height: 30%;
 }
 
 h2 {
